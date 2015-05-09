@@ -79,7 +79,7 @@ public class XmlReader {
                         continue;
                     }
 
-                    try {
+//                    try {
                         NodeList depositBalanceElmntLst = fstElmnt.getElementsByTagName("depositBalance");
                         Element depositBalanceElmnt = (Element) depositBalanceElmntLst.item(0);
                         NodeList depositBalanceNode = depositBalanceElmnt.getChildNodes();
@@ -89,14 +89,14 @@ public class XmlReader {
                             logError(counter, nullMsg);
                             continue;
                         }
-                        if(depositBalance.doubleValue() <0)
-                            throw  new NegativeValueExeption("the deposit balance is negative!!");
+//                        if(depositBalance.doubleValue() <0)
+//                            throw  new NegativeValueExeption("the deposit balance is negative!!");
 //                        MyNumberFormatException formatException = new MyNumberFormatException();
 //                        formatException.main(depositBalance);
-                    } catch (NegativeValueExeption e) {
-                        logError(counter, e.toString());
-                        continue;
-                    }
+//                    } catch (NegativeValueExeption e) {
+//                        logError(counter, e.toString());
+//                        continue;
+//                    }
                     try {
                         NodeList durationDaysElmntLst = fstElmnt.getElementsByTagName("durationlnDays");
                         Element durationDaysElmnt = (Element) durationDaysElmntLst.item(0);
@@ -174,7 +174,6 @@ public class XmlReader {
 
         }
     }
-
     public static <E extends Enum<E>> boolean isInEnum(String value, Class<E> enumClass) {
         for (E e : enumClass.getEnumConstants()) {
             if (e.name().equals(value)) {

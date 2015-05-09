@@ -25,7 +25,7 @@ public  class Deposit implements Comparable<Deposit> {
             throw new NegativeValueExeption("the number of days is negative or zero!!");
         this.durationDays = durationDays;
     }
-    //
+    //hghfhg
 //    public BigDecimal getDepositBalance()
 //    {
 //        return depositBalance;
