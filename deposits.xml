@@ -1,0 +1,22 @@
+<deposits>
+	<deposit>
+		<customerNumber>534900</customerNumber>
+		<depositType>ShortTerm</depositType>
+		<depositBalance>20000</depositBalance>
+		<durationlnDays>25</durationlnDays>
+	</deposit>
+	
+	<deposit>
+		<customerNumber>48483</customerNumber>
+		<depositType>Qarz</depositType>
+		<depositBalance>145000</depositBalance>
+		<durationlnDays>38</durationlnDays>
+	</deposit>
+
+	<deposit>
+		<customerNumber>658951</customerNumber>
+		<depositType>LongTerm</depositType>
+		<depositBalance>545966600000</depositBalance>
+		<durationlnDays>1000</durationlnDays>
+	</deposit>
+</deposits>

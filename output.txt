@@ -1,0 +1,5 @@
+the 3th input is corrupted!! DepositTypeException: deposit type is wrong!
+
+ customerNumber: 534900 depositInterest: 136.987
+ customerNumber: 48483 depositInterest: 0.000
+
