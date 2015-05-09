@@ -1,5 +1,5 @@
-the 3th input is corrupted!! DepositTypeException: deposit type is wrong!
+the 1th input is corrupted!! NegativeValueExeption: the deposit balance is negative!!
 
- customerNumber: 534900 depositInterest: 136.987
+ customerNumber: 658951 depositInterest: 299159780821.918
  customerNumber: 48483 depositInterest: 0.000
 
